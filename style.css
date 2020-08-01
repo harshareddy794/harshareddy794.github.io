@@ -1,8 +1,11 @@
+body{
+overflow-x: hidden;
+}
+
 .large-header {
     position: relative;
     width: 100%;
     background: #111;
-    /* overflow: hidden; */
     background-size: cover;
     background-position: center center;
     z-index: 1;
@@ -26,8 +29,8 @@
  
 .demo .main-title {
     text-transform: uppercase;
-    font-size: 4.2em;
-    letter-spacing: 0.1em;
+    font-size: 3.5em;
+    letter-spacing: 10px;
 }
  
 .main-title .thin {
