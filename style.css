@@ -29,8 +29,8 @@ overflow-x: hidden;
  
 .demo .main-title {
     text-transform: uppercase;
-    font-size: 3.5em;
-    letter-spacing: 10px;
+    font-size: 2.5em;
+    letter-spacing: 5px;
 }
  
 .main-title .thin {
@@ -46,9 +46,37 @@ overflow-x: hidden;
 .demo .head-tag{
     width: 100%;
     position: absolute;
-    top: 15%;
+    top: 17.5%;
     color: #fff;
     text-align: center;
     font-weight: 300;
     font-size: 1.5rem;
+}
+.typed{
+    width: 100%;
+    top: 48%;
+    position: absolute;
+    text-transform: uppercase;
+    color: #F9F1E9;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact{
+    width: 100%;
+    top: 75%;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+.contact .fab{
+    height: 60px;
+    width: 60px;
+    background-color:transparent;
+    color: #F9F1E9;
+    font-size: 40px;
+    text-align: center;
+    margin:0 20px 0 20px;
 }
