@@ -1,5 +1,7 @@
 body{
 overflow-x: hidden;
+height: 100%;
+width: 100%;
 }
 
 .large-header {
@@ -29,13 +31,11 @@ overflow-x: hidden;
  
 .demo .main-title {
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2em;
     letter-spacing: 5px;
+    font-weight: 300;
 }
- 
-.main-title .thin {
-    font-weight: 200;
-}
+
  
 @media only screen and (max-width: 768px) {
 .demo .main-title {
@@ -51,6 +51,9 @@ overflow-x: hidden;
     text-align: center;
     font-weight: 300;
     font-size: 1.5rem;
+}
+h4{
+    font-weight: 200;
 }
 .typed{
     width: 100%;
@@ -79,4 +82,29 @@ overflow-x: hidden;
     font-size: 40px;
     text-align: center;
     margin:0 20px 0 20px;
+}
+.section:nth-of-type(2){
+    background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me{
+text-align: center;
+color: #000;
+}
+
+.about-me h1{
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about-me p{
+    font-weight: 400;
+    margin-top: 50px;
+    font-size: 1.2em;
+    line-height: 25px;
+    text-align: justify;
 }
