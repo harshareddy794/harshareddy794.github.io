@@ -90,14 +90,9 @@ h4{
     width: 100%;
     text-align: center;
     color: #000;
-    /* background-image: url('https://images.unsplash.com/photo-1547394765-185e1e68f34e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .about{
-    margin: 0px 100px;
+    margin: 0px 5%;
 }
 
 .about-me h1{
@@ -117,12 +112,15 @@ h4{
     font-family: 'Chilanka', cursive;
 }
 
+
 .skills{
     height: 100%;
     width: 100%;
     margin-bottom: 80px;
+    margin-left: auto;
 }
 .squre{
+
     font-weight: 300;
     font-size: 1.7em;
     height:150px;
@@ -166,4 +164,13 @@ h4{
 
 .squre.python{
     border:2px solid #b62cf5;
+}
+
+.squre .fa-database{
+    color: #de3546;
+}
+
+.squre.software{
+    border:2px solid #de3546;
+
 }
