@@ -174,3 +174,26 @@ h4{
     border:2px solid #de3546;
 
 }
+
+.projects{
+    width: 100%;
+    margin-left: auto;
+}
+.projects h1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 25px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.card:hover{
+    transition: linear 0.3s;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.3),
+    0px 18px 23px rgba(0,0,0,0.2);
+    transform: scale(1.02);
+}
