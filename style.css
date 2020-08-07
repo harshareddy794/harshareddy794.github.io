@@ -4,6 +4,7 @@ height: 100%;
 width: 100%;
 }
 
+/* Head CSS */
 .large-header {
     position: relative;
     width: 100%;
@@ -84,6 +85,9 @@ h4{
     margin:0 20px 0 20px;
 }
 
+
+/* About CSS */
+
 .about-me{
     padding:100px 10% 50px 10%;
     height: 100%;   
@@ -112,6 +116,7 @@ h4{
     font-family: 'Chilanka', cursive;
 }
 
+/* Skills CSS */
 
 .skills{
     height: 100%;
@@ -175,6 +180,8 @@ h4{
 
 }
 
+/*  Projects CSS  */
+
 .projects{
     width: 100%;
     margin-left: auto;
@@ -196,4 +203,16 @@ h4{
     0px 8px 13px rgba(0,0,0,0.3),
     0px 18px 23px rgba(0,0,0,0.2);
     transform: scale(1.02);
+}
+
+/* Stats CSS */
+
+.stats{
+    text-align: center;
+    font-weight: 100;
+}
+
+.stats .fa-smile-wink{
+    color: #000000;
+    font-size: 2.5rem;
 }
