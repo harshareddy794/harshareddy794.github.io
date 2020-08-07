@@ -208,11 +208,45 @@ h4{
 /* Stats CSS */
 
 .stats{
+    color: #F9F1E9;
+    padding: 50px 0;
+    height: 100%;
+    width: 100%;
     text-align: center;
-    font-weight: 100;
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.stats h1{
+    font-weight: 300;
+    margin-bottom: 50px;
 }
 
 .stats .fa-smile-wink{
-    color: #000000;
-    font-size: 2.5rem;
+    color: #F9F1E9;
+    font-size: 2.25rem;
 }
+
+.stat h3{
+    font-size: 2.5rem;
+
+}
+
+.stat p{
+    font-size: 1.15rem;
+    font-family: 'Chilanka', cursive;
+}
+
+/* Skills */
+
+.skills{
+    margin-top: 50px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+}
+
+
+
