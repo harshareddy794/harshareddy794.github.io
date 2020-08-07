@@ -196,7 +196,33 @@
         <span class="counter">1,234,567</span>
       </div>
     </div>
-  </section> -->
+  </section>
+  <div class="progress">
+    <span class="skill">C++ Language <i class="val">70%</i></span>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>  -->
+  <section>
+    <div class="skills">
+      <div class="container">
+        <div class="row">
+          <div data-aos="zoom-in">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div id="prog">
+
+  </div>
+
+
+
 
 
 
@@ -208,6 +234,7 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     <script>
         var typed = new Typed('#typed', {
             stringsElement: '#typed-strings',
@@ -219,6 +246,24 @@
     </script>
     <script>
     AOS.init();
+  </script>
+  <script>
+    var bar = new ProgressBar.Circle(prog, {
+      color: '#FFEA82',
+      trailColor: '#eee',
+      trailWidth: 1,
+      duration: 1400,
+      easing: 'bounce',
+      strokeWidth: 6,
+      from: {color: '#FFEA82', a:0},
+      to: {color: '#ED6A5A', a:1},
+      // Set default step function for all animate calls
+      step: function(state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+      }
+    });
+
+    bar.animate(1.0);
   </script>
 </body>
 </html>
