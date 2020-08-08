@@ -290,3 +290,11 @@ h4{
     height: 7%;
     width: auto;
 }
+
+.end{
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding: 25px 0;
+}
