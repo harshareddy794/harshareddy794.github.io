@@ -28,6 +28,18 @@ html,body{
 }
 
 .center{
-    margin-top: 50px;
+    border-radius: 25px;
+    padding: 25px;
+    margin: auto;
+    margin: 25px 0;
+    height: 500px;
+    width: 100%;
     background-color: #fff;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+    0px 8px 13px rgba(0,0,0,0.2),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.home .contact{
+    margin-top: 25px;
 }
