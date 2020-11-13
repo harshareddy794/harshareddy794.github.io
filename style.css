@@ -9,7 +9,7 @@ html,body{
 
 
 .home{
-    height: 75%;
+    height: 60%;
     width: 100%;
     background: #88f2ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #7671ff, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
@@ -27,12 +27,13 @@ html,body{
     margin-left: 15px;
 }
 
+/* Css for center part */
 .center{
     border-radius: 25px;
     padding: 25px;
     margin: auto;
     margin: 25px 0;
-    height: 500px;
+    height: 100%;
     width: 100%;
     background-color: #fff;
     box-shadow: 0px 4px 3px rgba(0,0,0,0.3),
@@ -40,6 +41,38 @@ html,body{
     0px 18px 23px rgba(0,0,0,0.1);
 }
 
+
+/* Css for details */
+.details{
+    margin-top: 50px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.details .head{
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.7);
+}
+
+.details .name{
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.details .title{
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    font-weight: 500;
+    color: rgba(0,0,0,1);
+}
+
+
+/* Css for contact details */
 .home .contact{
     text-align: center;
     width: 100%;
