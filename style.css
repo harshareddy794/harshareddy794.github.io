@@ -41,5 +41,35 @@ html,body{
 }
 
 .home .contact{
-    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.home .contact .item{
+    margin: 35px 0;
+}
+
+.contact .item .fab,.contact .item .far{
+    font-size: 2.5rem;
+}
+
+.contact .fa-twitter{
+    color: #00acee;
+}
+
+.contact .fa-github{
+    color: #211f1f;
+}
+
+.contact .fa-linkedin-in{
+    color: #0e76a8;
+}
+
+.contact .fa-envelope{
+    color: #211f1f;
 }
